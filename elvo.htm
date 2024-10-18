@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Elvis Abok - Professional Programmer with 12 years of experience">
+    <meta name="keywords" content="Elvis Abok, programmer, web development, software engineer">
+    <title>Elvis Abok - Professional Programmer</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        /* Header Section */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        /* About Section */
+        section {
+            padding: 40px 0;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 10px 0;
+        }
+
+        ul li {
+            font-size: 1.1rem;
+        }
+
+        /* Skills Section */
+        .skills-list {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .skill-item {
+            width: 23%;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        /* Projects Section */
+        .project-list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .project-item {
+            width: 30%;
+            margin: 10px 0;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-item a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #1e90ff;
+            text-decoration: none;
+        }
+
+        .project-item a:hover {
+            text-decoration: underline;
+        }
+
+        /* Contact Form */
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        form label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form button {
+            display: block;
+            margin: 20px auto 0;
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #555;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer a {
+            color: #1e90ff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Elvis Abok</h1>
+            <p>Professional Programmer | Software Developer | Problem Solver</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hi! I'm Elvis Abok, a passionate programmer with over 12 years of experience in the software development industry. I graduated from the University of Nairobi with a degree in Computer Science, and I've worked on a wide range of projects, from small-scale applications to large enterprise systems.</p>
+            <p>I specialize in various programming languages and technologies, including but not limited to:</p>
+            <ul>
+                <li>JavaScript (React, Node.js)</li>
+                <li>Python (Django, Flask)</li>
+                <li>PHP (Laravel, Symfony)</li>
+                <li>Java (Spring Boot)</li>
+                <li>HTML, CSS, and modern web design techniques</li>
+            </ul>
+            <p>Let's connect and build something amazing!</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <div class="skill-item">
+                    <h3>Frontend Development</h3>
+                    <p>Proficient in creating responsive and interactive user interfaces using HTML, CSS, JavaScript, and modern frameworks like React and Vue.js.</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Backend Development</h3>
+                    <p>Experienced in building server-side applications and APIs using Node.js, Python (Django/Flask), and Java (Spring Boot).</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Database Management</h3>
+                    <p>Skilled in working with relational databases (MySQL, PostgreSQL) and NoSQL databases (MongoDB, Firebase).</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Version Control</h3>
+                    <p>Expert in Git and GitHub for version control, collaboration, and code management.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <p>Here are some of the projects I have worked on over the years:</p>
+            <div class="project-list">
+                <div class="project-item">
+                    <h3>Online Marketplace</h3>
+                    <p>A full-stack e-commerce platform built with React and Node.js. Integrated payment gateway, user authentication, and a real-time chat feature.</p>
+                    <a href="#">View Project</a>
+                </div>
+                <div class="project-item">
+                    <h3>Inventory Management System</h3>
+                    <p>A Django-based application for tracking stock levels, managing suppliers, and generating reports for warehouse managers.</p>
+                    <a href="#">View Project</a>
+                </div>
+                <div class="project-item">
+                    <h3>Blog Platform</h3>
+                    <p>A custom-built blog system using Laravel for content management and responsive design for mobile-friendly access.</p>
+                    <a href="#">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Interested in working together or just want to say hello? Reach out to me via the form below or connect with me on LinkedIn:</p>
+            <form action="#">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Elvis Abok. All rights reserved.</p>
+            <p>Connect with me: 
+                <a href="https://www.linkedin.com/in/elvisabok" target="_blank">LinkedIn</a> |
+                <a href="mailto:elvisabok20@gmail.com">Email</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
